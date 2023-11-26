@@ -3,7 +3,7 @@
 MiniAutoKeyboard is a CircuitPython script designed for the [Adafruit Rotary Trinkey](https://learn.adafruit.com/adafruit-rotary-trinkey/overview) with the [ATSAMD21E18 32-bit Cortex M0+ SoC](https://www.microchip.com/en-us/product/atsamd21e18). The rotary encoder can be used to select a numbered *.txt file on the CircuitPython USB flashdrive of the Trinkey and output them as a regular USB HID device (e.g. a keyboard).
 
 ## Features
-<img src="logo_miniautokeyboard.png" alt="MiniAutoKeyboard Logo" width="300" align="right">
+<img src="logo_miniautokeyboard.png" alt="MiniAutoKeyboard Logo" width="340" align="right">
 
 1. **Text File Selection via Rotary Encoder**: Utilizes rotary encoder to scroll through and select numbered `.txt` files stored on the CircuitPython USB flash drive of the Trinkey. The NeoPixel LED will flash x times based on the file number currently selected.
 2. **Automated Text Typing**: Once a `.txt` file is selected, pushing the switch on the rotary encoder triggers the script to type out the contents of the selected text file to the connected device, emulating a regular USB HID device like a keyboard.
