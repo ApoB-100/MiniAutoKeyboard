@@ -42,10 +42,12 @@ counter = 0
 while True:
     position = encoder.position
     if touch1.value:
-        # Wait for touch release and reset position
+        # Wait for touch release and re-initialize encoder
         while touch1.value: 
             time.sleep(0.1)
-        position = 0
+        encoder.deinit()  # Deinitialize the encoder
+        encoder = rotaryio.IncrementalEncoder(board.ROTA, board.ROTB, 4)  # Re-initialize
+        position = 0  # Reset position
 
     # Check if position changed
     if position != last_position:
