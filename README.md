@@ -25,16 +25,9 @@ MiniAutoKeyboard is a CircuitPython script designed for the [Adafruit Rotary Tri
 2. **Copy Required Libraries**:
    - Create a folder named `lib` on the `CIRCUITPY` drive.
    - Copy the following libraries into this folder:
-     - `board`
-     - `touchio`
-     - `rotaryio`
-     - `usb_hid`
-     - `neopixel`
-     - `digitalio`
-     - `time`
-     - `adafruit_hid.keyboard`
-     - `keyboard_layout_win_de`
-     - `keycode_win_de`
+     - `adafruit_hid` (folder)
+     - `keyboard_layout_win_de.py`
+     - `keycode_win_de.py`
 
 ### Usage Instructions
 
@@ -52,7 +45,7 @@ MiniAutoKeyboard is a CircuitPython script designed for the [Adafruit Rotary Tri
 
 ### Required Libraries
 
-To run this script on the Adafruit Trinkey Rotary, the following libraries need to be copied onto the device:
+To run this script on the Adafruit Trinkey Rotary, the following libraries need to be available in the CircuitPython environment:
 
 - `board`
 - `touchio`
