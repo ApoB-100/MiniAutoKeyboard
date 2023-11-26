@@ -5,8 +5,6 @@ import usb_hid
 import time
 import neopixel
 import digitalio
-#import storage
-#import os
 from adafruit_hid.keyboard import Keyboard
 from keyboard_layout_win_de import KeyboardLayout
 from keycode_win_de import Keycode
