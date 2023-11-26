@@ -9,6 +9,7 @@ MiniAutoKeyboard is a CircuitPython script designed for the [Adafruit Rotary Tri
 2. **Automated Text Typing**: Once a `.txt` file is selected, pushing the switch on the rotary encoder triggers the script to type out the contents of the selected text file to the connected device, emulating a regular USB HID device like a keyboard.
 3. **USB HID Device Emulation**: The script emulates keyboard inputs, allowing the typed contents to be inputted to any device that recognizes standard USB keyboards.
 4. **Customizable Keyboard Layout**: Comes pre-configured for the Central European QWERTZ keyboard layout but can be adapted for other keyboard layouts, offering flexibility in different regional settings.
+5. **Line ending agnostic**: The script can handle all types of line endings used by different OS.
 
 ## Instructions
 
